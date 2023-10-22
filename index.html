@@ -4,130 +4,120 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercicio 01 - ADA TECH</title>
+  <title>Ada Play</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <header>
-    <h1>Padaria do Zé</h1>
+  <header class="header">
+    <div class="container">
+      <h1>Ada Play</h1>
+      <nav>
+        <ul class="menu">
+          <li class="menu-item">
+            <a class="menu-link" href="./index.html">Home</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="./produtos.html">Produtos</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="./sobre.html">Sobre</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="./contato.html">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main class="container">
-    <h2>Produtos</h2>
-    <div class="produtos-container">
-      <div class="produtos">
-        <h3>Pães</h3>
-        <ul>
-          <li>Pão francês</li>
-          <li>Pão australiano</li>
-          <li>Pão seda</li>
-        </ul>
+  <main class="main">
+    <figure class="main-banner-container">
+      <img class="main-banner-img" src="https://source.unsplash.com/3000x2400/?games" alt="Jogos da Ada Play" />
+
+    </figure>
+    <div class="container">
+      <h2 class="sub-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, neque?</h2>
+      <div class="main-content">
+        <figure>
+          <img class="main-content-img" src="https://source.unsplash.com/2000x1400/?videogames" alt="Loja Ada Play" />
+        </figure>
+
+        <div class="main-info">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, sequi, voluptates id sint, itaque delectus repellat perspiciatis dolorem commodi placeat ad illo nulla repellendus saepe. Fugiat tenetur obcaecati odio excepturi?</p>
+          <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+          </ul>
+          <a class="button" href="#">Lorem</a>
+        </div>
       </div>
-      <div class="produtos">
-        <h3>Bebidas</h3>
-        <ul>
-          <li>Suco</li>
-          <li>Refrigerante</li>
-          <li>Agua</li>
-        </ul>
-      </div>
-      <div class="produtos">
-        <h3>Sopas</h3>
-        <ul>
-          <li>Sopa de legumes</li>
-          <li>Sopa de carne</li>
-        </ul>
-      </div>
+
     </div>
   </main>
 
-  <div class="container">
+  <section class="games-table">
+    <div class="container">
+      <h2 class="sub-title">Lorem ipsum dolor sit amet</h2>
+      <table colspan="">
+        <thead>
+          <tr>
+            <th colspan="5">Tabela de Jogos</th>
+          </tr>
+          <tr>
+            <td>Nome</td>
+            <td>Plataforma</td>
+            <td>Tipo</td>
+            <td>Nota</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Need for Speed</td>
+            <td>Windows</td>
+            <td>Corrida</td>
+            <td>8</td>
+
+          </tr>
+          <tr>
+            <td>Age of Empires</td>
+            <td>Windows</td>
+            <td>Estrategia</td>
+            <td>9</td>
+
+          </tr>
+          <tr>
+            <td>Tibia</td>
+            <td>Linux</td>
+            <td>RPG</td>
+            <td>10</td>
+
+          </tr>
+          <tr>
+            <td>Counter Strike</td>
+            <td>Windows</td>
+            <td>FPS</td>
+            <td>9,5</td>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
 
 
-    <table colspan="">
-      <thead>
-        <tr>
-          <th colspan="5">Tabela de Notas</th>
-        </tr>
-        <tr>
-          <td>Nome</td>
-          <td>Nota 1</td>
-          <td>Nota 2</td>
-          <td>Nota 3</td>
-          <td>Nota 4</td>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Davis</td>
-          <td>7,5</td>
-          <td>5</td>
-          <td>8</td>
-          <td>6</td>
-        </tr>
-        <tr>
-          <td>Pedro</td>
-          <td>5</td>
-          <td>8</td>
-          <td>6</td>
-          <td>7,5</td>
-        </tr>
-        <tr>
-          <td>Maria</td>
-          <td>6</td>
-          <td>8</td>
-          <td>5</td>
-          <td>7,5</td>
-        </tr>
-        <tr>
-          <td>Ana</td>
-          <td>8</td>
-          <td>5</td>
-          <td>7,5</td>
-          <td>6</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+  <footer class="footer">
+    <div class="container">
+      <span>&copy;Ada Play. Todos os direitos reservados.</span>
+    </div>
+  </footer>
 
-  <div class="container">
-
-
-    <table colspan="">
-      <thead>
-        <tr>
-          <td colspan="2" rowspan="2"></td>
-          <th colspan="2">Informacoes</th>
-        </tr>
-        <tr>
-          <th>Idade</th>
-          <th>Peso</th>
-        </tr>
-
-      </thead>
-      <tbody>
-        <tr>
-          <td colspan="2" rowspan="2">Homem</td>
-          <td>50</td>
-          <td>80kg</td>
-        </tr>
-        <tr>
-          <td>28</td>
-          <td>85kg</td>
-        </tr>
-        <tr>
-          <td colspan="2" rowspan="2">Mulher</td>
-          <td>35</td>
-          <td>56kg</td>
-        </tr>
-        <tr>
-          <td>40</td>
-          <td>60kg</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
 </body>
 
 </html>
